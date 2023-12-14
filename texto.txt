@@ -1,0 +1,43 @@
+Comandos Git:
+git add “nombre archivo” añade archivo a traza git
+git add . Para todos los archivos a la vez
+git status muestra el estado de la traza git
+git log muestra los commits de la traza
+git tabulador muestra comando disponibles
+git checkout “nombre archivo” volvemos a estado anterior 
+git checkout “número has” te desplazas a ese punto en la rama
+git reset resetea cambios
+git reset —hard resetea y posiciona en el commit elegido, y perdemos los commit posteriores salvo utilizar e log completo
+git reflog historial completo git, podremos ver los commit perdidos con reset —hard y recuperarlos
+git commit -m “comentario obligatorio” añade a rama nueva imagen
+git log —graph muestra log en modo grafico
+git log —graph —pretty=oneline
+git log —graph —decorate —all — oneline
+git diff muestra diferencias entre último commit y local 
+git tag “nombre_etiqueta” etiquetas 
+git tag muestra los tags creados
+git checkout tag/“nombre_tag” nos posicionamos en el tag
+git branch “nombre rama” creamos ramas paralelas a main
+git switch “nombre rama” selecciona rama 
+git merge “nombre rama” fusionamos cambios ramas
+git stash guarda cambios temporalmente sin hacer commit 
+git stash list muestra los stash que hay en la rama
+git stash pop trae los cambios de los stash
+git stash drop elimina stash
+git branch -d “nombre rama” elimina rama
+git remote add origin “dirección repo GitHub” para añadir nuestro proyecto al repo remoto 
+git remote rm “origin” eliminas el origen remoto actual para poder empezar de cero
+git push -u origin “nombre rama” sincroniza local con repo remoto
+git fetch actualiza el historial de cambios sin sincronizarlos 
+git config pull.rebase false configura de forma predeterminada como merge ramas remota y local para evitar conflictos 
+git pull origin “rama” trae los cambios realizados en repo remoto
+
+Plugin git-flow:
+brew install git-flow instala el plugin para trabajar con el flujo de trabajo establecido “git-flow”
+
+Alias:
+Comandos predeterminados propios
+git config —global alias.tree “log —graph —decorate —all —oneline”
+
+.gitignore:
+**/ .DS_Store
