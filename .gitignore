@@ -73,6 +73,16 @@ pytest_cache/
 # Ignore system-specific files
 *.swp
 Thumbs.db
-.DS_Store
 
-# Ignore any other sensitive information or environment specific files
+# Ignorar archivos de configuración de macOS
+.DS_Store
+# Carpetas específicas de macOS
+/.Spotlight-V100
+/.Trashes
+/.fseventsd
+
+# Varios archivos de sistema de macOS
+.AppleDouble
+.LSOverride
+
+
