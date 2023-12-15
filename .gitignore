@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# CPython
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environments
+venv/
+env/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# macOS DS_Store
+.DS_Store
+
+# Editors
+.vscode/
+*.swp
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Local configuration
+.idea/
+*.sqlite3
+*.pyc
+*.bak
+*.bak/
+*.log
+*.cache
+
+# Ignore pipenv virtual environment
+/.venv
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore production environment variables
+.env
+
+# Ignore PyInstaller build outputs
+/dist/
+/build/
+
+# Ignore Django generated files
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media/
+
+# Ignore Sphinx documentation build output
+/docs/_build/
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+
+# Ignore pytest cache
+.cache/
+pytest_cache/
+
+# Ignore distutils build directory
+.build/
+
+# Ignore system-specific files
+*.swp
+Thumbs.db
+.DS_Store
+
+# Ignore any other sensitive information or environment specific files
